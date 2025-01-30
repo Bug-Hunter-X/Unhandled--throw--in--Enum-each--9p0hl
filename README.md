@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to using `throw` within Elixir's `Enum.each`. The `bug.exs` file contains the problematic code. The `bugSolution.exs` file shows the proper way to handle this situation using a `try...catch` block or alternative approaches like `Enum.reduce` or a recursive function.
